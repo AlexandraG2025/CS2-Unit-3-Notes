@@ -74,6 +74,24 @@ public class Main {
          System.out.println("You're too young to drive in NY");
       }
       
+      // MULTI-WAY SELECTION
+      System.out.println("What type of costume are you thinking of? (scary, cute, funny, other)");
+      String choice = "scary";
+      // always start a "decision" with an IF statment 
+      if (choice.equals("scary")) {
+         System.out.println("You should be a Ghost face.");
+      }
+      // You can include as many ELSE IF statemnets as you want but they must follow an initial IF statment 
+      else if (choice.equals("Cute")) {
+         System.out.println("You should a princess");
+      }
+      else if (choice.equals("funny")) {
+         System.out.println("You should a inflatable dino");
+      }
+      // Provide a "catch-all" choice in case earlier ocnditions are not met
+      else {
+         System.out.println("Look on tik tok or pintrest and find something cool.");
+      }
 
 
    }
