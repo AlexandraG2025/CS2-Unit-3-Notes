@@ -93,6 +93,33 @@ public class Main {
          System.out.println("Look on tik tok or pintrest and find something cool.");
       }
 
+      // AND && OPERATORS
+      // both conditionas need to be true for the the contitional boday to be executed
+      boolean  didHomework = false;
+      boolean cleanedRoom = true;
+      // Can wrtie the conditions either way below, both arre valid because we're usong boolean variables already
+      if (didHomework == true && cleanedRoom == true) {
+         System.out.println("You can go out!");
+      }
+      else {
+         System.out.println("You're grounded");
+      }
+      // OR || opertator
+      // evaluates to true if AT LEAST one expressions is true 
+      if ((didHomework) || (cleanedRoom)) {
+         System.out.println("The moe premssive parents ay sure, go out and fininsh everything out later");
+      }
+      else {
+         System.out.println("No, you need to do at least one of ytasks first")
+      }
+      //Not ! operatator 
+      // Use this on just ONE to flip the boolean results
+      boolean walkSignOn = true;
+      // Conditions body will excute only if condition is false 
+      if (!walkSignOn) {
+         System.out.println ("STOP CROSSING THE STREE");
+      }
+
 
    }
 }
